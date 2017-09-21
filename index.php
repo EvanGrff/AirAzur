@@ -13,6 +13,7 @@ switch($action)
     case 'accueil':
 	  // vue qui crée le contenu de la page d’accueil
         include("vues/v_accueil.php");
+        echo "salut" ;
         break;
 }
 
